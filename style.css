@@ -42,6 +42,7 @@ nav ul li a:hover {
     color: black;
     box-shadow: 0em .0625em .125em 0em grey;
     cursor: pointer;
+    width: 5vw;
 }
 
 
@@ -263,7 +264,8 @@ main {
 }
 
 #socialMedia img {
-    max-width: 48px;
+    max-width: 32px;
+    max-height: 32px;
 }
 
 
@@ -297,15 +299,18 @@ tr:hover {
     padding: 1em 0;
     flex-wrap: wrap;
     align-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     width: 300px;
-    border: 1px solid black;
+    
     align-content: space-between;
     margin: 3em;
+    margin-top: 0;
 
 }
 
@@ -342,8 +347,8 @@ tr:hover {
 
 .linkGroup a button {
     display: flex;
-    min-width: 144px;
-    min-height: 42px;
+    min-width: 288px;
+    min-height: 72px;
 
 }
 
@@ -357,7 +362,7 @@ tr:hover {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 7em;
     padding-bottom: .0625em;
 }
 
@@ -378,4 +383,19 @@ h1 {
     font-size: 1.125em;
     text-indent: 2em;
     padding: 1em;
+}
+button{
+    font-size: 2.25em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tourButton{
+    font-size: 1.5em;
+}
+.tourTable{
+    max-width: 780px;
+}
+.merchPrice{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
 }
