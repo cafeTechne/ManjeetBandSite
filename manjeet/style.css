@@ -406,7 +406,10 @@ button {
 }
 
 @media only screen and (max-width: 700px){
-.bandName{
-    font-size: 4.75rem;
-}
+    .bandName{
+        font-size: 4.75rem;
+    }
+    #preOrderLinkText{
+        font-size: 1.3855rem;
+    }
 }
